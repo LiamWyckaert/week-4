@@ -27,5 +27,5 @@ def tel_aantal_klinkers(parzin:str) -> int:
     return aantal_klinkers
 
 zin = input("Geef een zin op:> ")
-aantal = tel_aantal_klinkers(zin)
+aantal = tel_aantal_klinkers(zin.lower)
 print(f"Het aantal klinkers in de zin is: {aantal}")
